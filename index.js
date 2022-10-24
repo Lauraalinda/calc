@@ -7,9 +7,8 @@ buttons.forEach(function(element){
 element.addEventListener('click',function(){
     const tipRate = Number(element.id)
     console.log( tipRate )
-    
-    
-    // console.log(`Button of id:${element.id} has been clicked`)
+  
+// console.log(`Button of id:${element.id} has been clicked`)
 
    })
 })
