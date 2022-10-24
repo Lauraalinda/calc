@@ -18,7 +18,6 @@ const buttonIds = buttons.map(function(element){
     return element.id
 })
 // const button =document.querySelector('button')
-
 // button. addEventListener('click', function(){
 //   console.log("Button is clicked")
 //  
