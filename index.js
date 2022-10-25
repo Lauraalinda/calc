@@ -1,14 +1,14 @@
 const inputField=document.getElementById("inputdigit")
 const form = document.querySelector('.form')
 const buttons = Array.from(document.querySelectorAll('button'))
+let tipRate;
 
 
 buttons.forEach(function(element){
 element.addEventListener('click',function(){
-    const tipRate = Number(element.id)
-    console.log( tipRate )
-  
-// console.log(`Button of id:${element.id} has been clicked`)
+    tipRate = Number(element.id)
+    // console.log( tipRate )
+    // console.log(`Button of id:${element.id} has been clicked`)
 
    })
 })
@@ -21,7 +21,7 @@ const buttonIds = buttons.map(function(element){
 //   console.log("Button is clicked")
 //  
 // })
-const tr= tipRate
+
 const totalBill = Number(inputField.value)
 function calculateTotalBill(totalBill){
       console.log(totalBill*tr)
